@@ -7,7 +7,7 @@ env:
   CARGO_TERM_COLOR: always
 
 jobs:
-  run-clippy:
+  test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
